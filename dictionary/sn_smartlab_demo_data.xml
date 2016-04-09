@@ -2,6 +2,7 @@
 <database>
     <element label="Data" max_length="40" name="sn_smartlab_demo_data" type="collection">
         <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
         <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
         <index name="index">
             <element name="user"/>
